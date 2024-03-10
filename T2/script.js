@@ -5,8 +5,7 @@ document.getElementById('inputForm').addEventListener('submit', function(event) 
     let height = document.getElementById('height').value;
     let weight = document.getElementById('weight').value;
     let radius = document.getElementById('radius').value;
-
-    
+  
     let container = document.getElementById('shapesContainer');
     container.innerHTML = ''; 
 
@@ -19,7 +18,6 @@ document.getElementById('inputForm').addEventListener('submit', function(event) 
     }
 
 
-    
     if (radius) {
         let circle = document.createElement('div');
         let diameter = radius * 2;
