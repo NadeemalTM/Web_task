@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shape Drawer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Shape Drawer</h2>
+    <form id="inputForm">
+        <div class="form-group">
+            <label for="height">Height:</label>
+            <input type="number" id="height" name="height" required>
+        </div>
+        <div class="form-group">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" name="weight" required>
+        </div>
+        <div class="form-group">
+            <label for="radius">Radius:</label>
+            <input type="number" id="radius" name="radius">
+        </div>
+        <button type="submit" class="submit-btn">Draw Shapes</button>
+    </form>
+
+    <div id="shapesContainer"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
